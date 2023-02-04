@@ -38,9 +38,12 @@ function App() {
   return (
     <div className="App">
       <header>GetWord</header>
-      <h1>score: {score}</h1>
+      <div className="gameInfo">
+        <h1>{timer > 0 ? `time :${timer}`: "Time's up!"}</h1>
+        <h1>score: {score}</h1>
+      </div>
       <div className="gameContainer">
-        <div className="timer">{timer > 0 ? timer: "Time's up!"}</div>
+       
         <label className="word">{current}</label>
         <input
           className="input"
