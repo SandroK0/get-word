@@ -12,6 +12,8 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
+
 .border {
   border: 1px solid black;
 }
@@ -92,4 +94,24 @@ h1{
 
 .restartBtn:hover{
   opacity: 0.9;
+}
+@media only screen and (max-width: 500px){
+  .gameInfo{
+    width: 300px;
+    font-size: 12px;
+  }
+
+  .word{
+    width: 300px;
+    font-size: 30px;    
+  }
+
+  .input{
+    width: 300px;
+    font-size: 30px;
+  }
+
+ 
+
+  
 }

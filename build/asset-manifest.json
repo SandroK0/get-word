@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/getWord/static/css/main.77a4d3fa.css",
-    "main.js": "/getWord/static/js/main.2c5d696e.js",
-    "index.html": "/getWord/index.html",
-    "main.77a4d3fa.css.map": "/getWord/static/css/main.77a4d3fa.css.map",
-    "main.2c5d696e.js.map": "/getWord/static/js/main.2c5d696e.js.map"
+    "main.css": "/Sandra/static/css/main.4abfed06.css",
+    "main.js": "/Sandra/static/js/main.fd4fe236.js",
+    "index.html": "/Sandra/index.html",
+    "main.4abfed06.css.map": "/Sandra/static/css/main.4abfed06.css.map",
+    "main.fd4fe236.js.map": "/Sandra/static/js/main.fd4fe236.js.map"
   },
   "entrypoints": [
-    "static/css/main.77a4d3fa.css",
-    "static/js/main.2c5d696e.js"
+    "static/css/main.4abfed06.css",
+    "static/js/main.fd4fe236.js"
   ]
 }

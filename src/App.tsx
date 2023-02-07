@@ -14,7 +14,7 @@ function App() {
   const [timer, setTimer] = useState<number>(60);
   const [gameStatus, setGameStatus] = useState<boolean>(false);
 
-  if (current === value){
+  if (current.toUpperCase() === value.toUpperCase()){
     setScore(score + 1)
     setCurrent(wordsArray[Math.floor(Math.random() * wordsArray.length)])
     setValue('')
